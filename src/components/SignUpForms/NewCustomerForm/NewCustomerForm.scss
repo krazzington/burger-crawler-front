@@ -1,0 +1,11 @@
+.label-inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  &__secondary {
+    width: 30%;
+    background-color: red;
+  }
+}

@@ -1,0 +1,30 @@
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+
+  &__burgerImg {
+  }
+  &__burgerName {
+    font-size: 70%;
+  }
+  &__burgerDesc {
+    font-size: 50%;
+  }
+  &__form {
+    justify-content: space-between;
+    &--label {
+      font-size: 50%;
+    }
+  }
+}
+
+@include tablet {
+  .cardDiv {
+    max-width: 50%;
+  }
+}

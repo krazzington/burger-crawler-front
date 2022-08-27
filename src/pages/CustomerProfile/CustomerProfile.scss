@@ -1,0 +1,44 @@
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.customerProfileContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+
+  &__greeting {
+  }
+  &__dropDownMenu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.cardDiv {
+  border: 2px solid lightgrey;
+  border-radius: 0 0.25rem;
+
+  &__buttonDiv {
+    display: flex;
+    justify-content: end;
+    padding: 1%;
+  }
+}
+
+.completedCrawlContainer {
+  padding: 5%;
+
+  &__crawlInfo {
+    display: flex;
+    justify-content: center;
+    // border: 2px solid blue;
+  }
+}
+
+@include tablet {
+  .cardDiv {
+    width: 100%;
+  }
+}

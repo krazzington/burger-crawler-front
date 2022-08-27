@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.restaurantProfileContainer {
+  border: 2px yellow solid;
+  margin: 2%;
+
+  &__infoDiv {
+    border: 2px solid black;
+  }
+  &__addBurgerDiv {
+    border: 2px blue solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__cardDiv {
+  }
+}

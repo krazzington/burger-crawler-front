@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Classical Diary Demo';
+    src: url('ClassicalDiaryDemo.woff2') format('woff2'),
+        url('ClassicalDiaryDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

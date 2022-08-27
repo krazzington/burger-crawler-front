@@ -1,0 +1,20 @@
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.add-burger {
+  border: 2px red solid;
+  display: flex;
+  flex-direction: column;
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.hidden-div-with-restaurant-info {
+  display: none;
+}

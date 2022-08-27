@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBd.woff2') format('woff2'),
+        url('FallingSkyBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBlkObl.woff2') format('woff2'),
+        url('FallingSkyBlkObl.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBlk.woff2') format('woff2'),
+        url('FallingSkyBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBd.woff2') format('woff2'),
+        url('FallingSkyBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBdObl.woff2') format('woff2'),
+        url('FallingSkyBdObl.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyBdObl.woff2') format('woff2'),
+        url('FallingSkyBdObl.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyCondOu.woff2') format('woff2'),
+        url('FallingSkyCondOu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyCond.woff2') format('woff2'),
+        url('FallingSkyCond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyCondObl.woff2') format('woff2'),
+        url('FallingSkyCondObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSky.woff2') format('woff2'),
+        url('FallingSky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExt.woff2') format('woff2'),
+        url('FallingSkyExt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExBdObl.woff2') format('woff2'),
+        url('FallingSkyExBdObl.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExtObl.woff2') format('woff2'),
+        url('FallingSkyExtObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExtOuObl.woff2') format('woff2'),
+        url('FallingSkyExtOuObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExtOu.woff2') format('woff2'),
+        url('FallingSkyExtOu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyCondOuObl.woff2') format('woff2'),
+        url('FallingSkyCondOuObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyExBd.woff2') format('woff2'),
+        url('FallingSkyExBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyMed.woff2') format('woff2'),
+        url('FallingSkyMed.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyObl.woff2') format('woff2'),
+        url('FallingSkyObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyOu.woff2') format('woff2'),
+        url('FallingSkyOu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyLight.woff2') format('woff2'),
+        url('FallingSkyLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyMedObl.woff2') format('woff2'),
+        url('FallingSkyMedObl.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyOuObl.woff2') format('woff2'),
+        url('FallingSkyOuObl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkyLightObl.woff2') format('woff2'),
+        url('FallingSkyLightObl.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkySeBd.woff2') format('woff2'),
+        url('FallingSkySeBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('FallingSkySeBdObl.woff2') format('woff2'),
+        url('FallingSkySeBdObl.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
