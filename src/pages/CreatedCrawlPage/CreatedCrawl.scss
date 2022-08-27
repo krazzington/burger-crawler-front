@@ -1,0 +1,57 @@
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
+
+.crawlContainer {
+  &__info-restaurants {
+    &--header {
+      border: 2px green solid;
+      padding: 1.5% 1%;
+    }
+  }
+}
+
+.restaurants-container {
+  display: flex;
+  flex-direction: column;
+  border: 4px blue solid;
+  margin: 1%;
+  &__restaurant-name {
+  }
+  &__button {
+  }
+}
+
+@include tablet {
+  .restaurants-container {
+    flex-direction: row;
+    padding: 5%;
+  }
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+
+  &__burgerImg {
+  }
+  &__burgerName {
+    font-size: 70%;
+  }
+  &__burgerDesc {
+    font-size: 50%;
+  }
+  &__form {
+    justify-content: space-between;
+    &--label {
+      font-size: 50%;
+    }
+  }
+}
+
+@include tablet {
+  .cardDiv {
+    max-width: 50%;
+  }
+}

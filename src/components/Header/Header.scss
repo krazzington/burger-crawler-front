@@ -1,12 +1,69 @@
-
-
-
+@use "../../styles/variables" as *;
+@use "../../styles/global" as *;
+@use "../../styles/breakpoints" as *;
+@use "../../styles/fonts" as *;
 
 .header {
-    margin: 0 auto;
-    width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ebae14;
+  height: 12vh;
+  max-height: 12vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 
-    &__logoContainer{
-        width: auto;
+  &__logoContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__logoDiv {
+    max-height: 100%;
+    &--logo {
+      max-height: 100%;
     }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20%;
+
+    &-item {
+      text-decoration: none;
+
+      &--signIn {
+        background-color: royalblue;
+      }
+      &--signUp {
+      }
+    }
+  }
 }
+
+@include mid-tablet {
+  .header {
+    padding: 2%;
+
+    &__logoContainer {
+    }
+
+    &__logoDiv {
+      &--logo {
+      }
+    }
+
+    &__links {
+      flex-direction: row;
+      &-item {
+        &--signIn {
+        }
+        &--signUp {
+        }
+      }
+    }
+  }
+}
+

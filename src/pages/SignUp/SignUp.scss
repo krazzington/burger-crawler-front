@@ -1,0 +1,11 @@
+
+
+.signUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__btnContainer{
+        display: flex;
+        flex-direction: row;
+    }
+}
